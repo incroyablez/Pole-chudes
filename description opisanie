@@ -22,3 +22,25 @@ rus
 Перед командой нужно указать спецсимвол, который будет отличать команду от буквы угадываемого слова.(/)
 5.консольное приложение
 eng
+1. This repository contains the program of the game "field of miracles" 
+2. Summary:
+a word is guessed by the game, the player tries to open the letters in this word, alternately guessing them.
+The player has 3 lives, if he uses them up, he has lost.
+at the beginning of the game, the player has the opportunity to choose one of the random words, in the game it will always be possible to call the instruction (/instruction).
+The game will show the letters that have not been used and how many characters are still left unsolved in the word.
+good luck.
+3. The program of this game is written in python 
+4. Game Description: A word is hidden in the program. A word can be selected from a certain set of words. After starting the game, the hidden word should be displayed, but instead of letters, special characters (asterisks) 
+The player enters the letters one at a time. 
+If the player enters more than one letter or not a letter, an appropriate error message should be displayed. 
+The input must be case insensitive. 
+There should be a check that the letter you entered has not been there yet. 
+If it was, then the corresponding message should be displayed. 
+If the player guessed the letter that is in the word, then he should be congratulated and shown the hidden word, showing the guessed letters instead of special characters. 
+If the entered letter occurs more than once in a word, then you need to open them all. If the player has not guessed the letter, he should be informed that there is no such letter. 
+The game continues until the word is guessed. 
+After the word is guessed, it is necessary to display a message about the victory and the number of attempts spent. 
+The player can enter either one letter or the whole word. If you enter the whole word correctly, the victory should be counted. 
+The user can enter commands in addition to letters. 
+Before the command, you need to specify a special character that will distinguish the command from the letter of the guessed word.(/)
+5.Console application
